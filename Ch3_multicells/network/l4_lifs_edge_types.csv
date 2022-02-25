@@ -1,0 +1,3 @@
+edge_type_id target_query source_query syn_weight delay dynamics_params model_template
+104 * ei_type=='e' 0.0002 2.0 instanteneousExc.json Exp2Syn
+105 * ei_type=='e' 0.0043 2.0 instanteneousInh.json Exp2Syn

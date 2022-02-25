@@ -1,0 +1,5 @@
+node_type_id model_template dynamics_params morphology model_type model_name model_processing ei_type rotation_angle_zaxis
+100 ctdb:Biophys1.hoc Scnn1a_485510712_params.json Scnn1a_485510712_morphology.swc biophysical Scnn1a aibs_perisomatic e 3.646878266
+101 ctdb:Biophys1.hoc Rorb_486509958_params.json Rorb_486509958_morphology.swc biophysical Rorb aibs_perisomatic e 4.159763785
+102 ctdb:Biophys1.hoc Nr5a1_485507735_params.json Nr5a1_485507735_morphology.swc biophysical Nr5a1 aibs_perisomatic e 4.159763785
+103 ctdb:Biophys1.hoc Pvalb_473862421_params.json Pvalb_473862421_morphology.swc biophysical PValb aibs_perisomatic i 2.539551891
