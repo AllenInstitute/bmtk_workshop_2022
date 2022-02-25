@@ -1,0 +1,2 @@
+edge_type_id target_query source_query syn_weight delay dynamics_params
+100 * * 0.0025 0.002 dipde_ExcToExc.json

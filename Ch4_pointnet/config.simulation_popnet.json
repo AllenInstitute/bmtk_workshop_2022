@@ -1,0 +1,32 @@
+{
+  "manifest": {
+    "$BASE_DIR": ".",
+    "$OUTPUT_DIR": "$BASE_DIR/output_popnet",
+    "$INPUT_DIR": "$BASE_DIR/inputs"
+  },
+
+  "target_simulator":"DiPDE",
+
+  "run": {
+    "tstop": 3000.0,
+    "dt": 0.002
+  },
+
+  "inputs": {
+    "lgn_pop_rates": {
+      "input_type": "csv",
+      "module": "pop_rates",
+      "rates": "./inputs/lgn_pop_rates.csv",
+      "node_set": "lgn"
+    }
+  },
+
+  "output": {
+    "output_dir": "$OUTPUT_DIR",
+    "rates_file": "spike_rates.csv",
+    "log_file": "log.txt",
+    "overwrite_output_dir": true
+  },
+
+  "network": "config.circuit_popnet.json"
+}
