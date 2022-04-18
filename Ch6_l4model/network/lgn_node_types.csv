@@ -1,0 +1,15 @@
+node_type_id dynamics_params jitter_upper sf_sep model_template model_type non_dom_params model_name subtype jitter_lower
+100 sON_TF1.json 1.025  lgnmodel:sON_TF1 virtual  sON_TF1 sON 0.975
+101 sON_TF2.json 1.025  lgnmodel:sON_TF2 virtual  sON_TF2 sON 0.975
+102 sON_TF4.json 1.025  lgnmodel:sON_TF4 virtual  sON_TF4 sON 0.975
+103 sON_TF8.json 1.025  lgnmodel:sON_TF8 virtual  sON_TF8 sON 0.975
+104 sOFF_TF1.json 1.025  lgnmodel:sOFF_TF1 virtual  sOFF_TF1 sOFF 0.975
+105 sOFF_TF2.json 1.025  lgnmodel:sOFF_TF2 virtual  sOFF_TF2 sOFF 0.975
+106 sOFF_TF4.json 1.025  lgnmodel:sOFF_TF4 virtual  sOFF_TF4 sOFF 0.975
+107 sOFF_TF8.json 1.025  lgnmodel:sOFF_TF8 virtual  sOFF_TF8 sOFF 0.975
+108 sOFF_TF15.json 1.025  lgnmodel:sOFF_TF15 virtual  sOFF_TF15 sOFF 0.975
+109 tOFF_TF4.json 1.025  lgnmodel:tOFF_TF4 virtual  tOFF_TF4 tOFF 0.975
+110 tOFF_TF8.json 1.025  lgnmodel:tOFF_TF8 virtual  tOFF_TF8 tOFF 0.975
+111 tOFF_TF15.json 1.025  lgnmodel:tOFF_TF15 virtual  tOFF_TF15 tOFF 0.975
+112 sOFF_TF4.json 1.025 6.0 lgnmodel:sONsOFF_001 virtual sON_TF4.json sONsOFF_001 sONsOFF 0.975
+113 tOFF_TF8.json 1.025 4.0 lgnmodel:sONtOFF_001 virtual sON_TF4.json sONtOFF_001 sONtOFF 0.975
