@@ -24,6 +24,10 @@
       {
         "nodes_file": "$NETWORK_DIR/lgn_nodes.h5",
         "node_types_file": "$NETWORK_DIR/lgn_node_types.csv"
+      },
+      {
+        "nodes_file": "$NETWORK_DIR/lif_nodes.h5",
+        "node_types_file": "$NETWORK_DIR/lif_node_types.csv"  
       }
     ],
     "edges": [
@@ -34,6 +38,18 @@
       {
         "edges_file": "$NETWORK_DIR/lgn_l4_edges.h5",
         "edge_types_file": "$NETWORK_DIR/lgn_l4_edge_types.csv"
+      },
+      {
+        "edges_file": "$NETWORK_DIR/lif_l4_edges.h5",
+        "edge_types_file": "$NETWORK_DIR/lif_l4_edge_types.csv"
+      },
+      {
+        "edges_file": "$NETWORK_DIR/l4_lif_edges.h5",
+        "edge_types_file": "$NETWORK_DIR/l4_lif_edge_types.csv"
+      },
+      {
+        "edges_file": "$NETWORK_DIR/lif_lif_edges.h5",
+        "edge_types_file": "$NETWORK_DIR/lif_lif_edge_types.csv"
       }
     ]
   } 
