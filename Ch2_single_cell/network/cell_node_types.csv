@@ -1,2 +1,2 @@
-node_type_id model_template ei_type species layer model_processing model_type morphology model_name location dynamics_params
-100 ctdb:Biophys1.hoc exc mouse L4 aibs_perisomatic biophysical Scnn1a_485510712_morphology.swc Scnn1a VISp Scnn1a_485510712_params.json
+node_type_id ei_type model_processing model_type dynamics_params species location layer model_template morphology model_name
+100 exc aibs_perisomatic biophysical Scnn1a_485510712_params.json mouse VISp L4 ctdb:Biophys1.hoc Scnn1a_485510712_morphology.swc Scnn1a
