@@ -1,2 +1,0 @@
-edge_type_id target_query source_query delay model_template dynamics_params syn_weight
-100 * * 2.0 Exp2Syn AMPA_ExcToExc.json 0.0019
