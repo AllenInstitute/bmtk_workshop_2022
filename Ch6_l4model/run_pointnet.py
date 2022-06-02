@@ -4,6 +4,7 @@ import numpy as np
 
 from bmtk.simulator import pointnet
 from bmtk.simulator.pointnet.pyfunction_cache import synaptic_weight
+from bmtk.analyzer.spike_trains import plot_rates_boxplot, plot_rates, plot_raster
 
 @synaptic_weight
 def DirectionRule_others(edges, src_nodes, trg_nodes):
@@ -60,9 +61,11 @@ def run(config_file):
     sim = pointnet.PointSimulator.from_config(configure, graph)
     sim.run()
 
+    _ = plot_raster(config_file='config.simulation_pointnet.pert_pvalb.json', group_by='cell_line')
+
 
 if __name__ == '__main__':
     start = datetime.now()
-    run('config.simulation_pointnet.json')
+    run('config.simulation_pointnet.pert_pvalb.json')
     end = datetime.now()
     print('build time:', timedelta(seconds=(end - start).total_seconds()))
