@@ -6,6 +6,7 @@ from bmtk.simulator import pointnet
 from bmtk.simulator.pointnet.pyfunction_cache import synaptic_weight
 from bmtk.analyzer.spike_trains import plot_rates_boxplot, plot_rates, plot_raster
 
+"""
 @synaptic_weight
 def DirectionRule_others(edges, src_nodes, trg_nodes):
     src_tuning = src_nodes['tuning_angle'].values
@@ -50,7 +51,7 @@ def DirectionRule_EE(edges, src_nodes, trg_nodes):
     phase_scale_ratio = phase_scale_ratio * (5.5 / 4.0 - 11.0 / 1680.0 * theta_tar_scale)
 
     return syn_weight * w_multiplier_180 * phase_scale_ratio * nsyn
-
+"""
 
 
 def run(config_file):
@@ -61,11 +62,11 @@ def run(config_file):
     sim = pointnet.PointSimulator.from_config(configure, graph)
     sim.run()
 
-    _ = plot_raster(config_file='config.simulation_pointnet.pert_pvalb.json', group_by='cell_line')
+   #  _ = plot_raster(config_file='config.simulation_pointnet.recurrent.json', group_by='cell_line')
 
 
 if __name__ == '__main__':
     start = datetime.now()
-    run('config.simulation_pointnet.pert_pvalb.json')
+    run('config.simulation_pointnet.recurrent.json')
     end = datetime.now()
     print('build time:', timedelta(seconds=(end - start).total_seconds()))

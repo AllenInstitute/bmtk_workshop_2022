@@ -44,6 +44,6 @@
       }
     ]
   },
-  "config_path": "/Users/shinya.ito/realistic-model/bmtk_workshop_2022/Ch6_l4model/config.simulation_filternet.90deg_4Hz.json",
-  "config_dir": "/Users/shinya.ito/realistic-model/bmtk_workshop_2022/Ch6_l4model"
+  "config_path": "/home/kael/Workspace/bmtk_workshop_2022/Ch6_l4model/config.simulation_filternet.90deg_4Hz.json",
+  "config_dir": "/home/kael/Workspace/bmtk_workshop_2022/Ch6_l4model"
 }
