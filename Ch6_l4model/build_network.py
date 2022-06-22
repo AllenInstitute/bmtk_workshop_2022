@@ -354,7 +354,7 @@ def build_lgn(v1, fraction=1.0):
 
 if __name__ == '__main__':
     start = datetime.now()
-    v1 = build_v1(fraction=0.2)
+    v1 = build_v1(fraction=0.05)
     lgn = build_lgn(v1, fraction=1.0)
     end = datetime.now()
     print('build time:', timedelta(seconds=(end - start).total_seconds()))

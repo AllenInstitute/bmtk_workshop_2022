@@ -1,0 +1,49 @@
+{
+  "target_simulator": "LGNModel",
+  "run": {
+    "tstop": 3000.0,
+    "dt": 0.1
+  },
+  "conditions": {
+    "jitter_lower": 0.75,
+    "jitter_upper": 1.25
+  },
+  "inputs": {
+    "gratings": {
+      "input_type": "movie",
+      "module": "graiting",
+      "row_size": 120,
+      "col_size": 240,
+      "gray_screen_dur": 500.0,
+      "cpd": 0.04,
+      "temporal_f": 4.0,
+      "contrast": 0.8,
+      "theta": 90.0,
+      "evaluation_options": {
+        "downsample": 1,
+        "separable": true
+      }
+    }
+  },
+  "output": {
+    "log_file": "./inputs/log.txt",
+    "output_dir": "./inputs",
+    "rates_csv": "rates.gratings.90deg_4Hz.csv",
+    "rates_h5": "rates.gratings.90deg_4Hz.h5",
+    "spikes_file_csv": "./inputs/spikes.gratings.90deg_4Hz.csv",
+    "spikes_file": "./inputs/spikes.gratings.90deg_4Hz.h5"
+  },
+  "components": {
+    "filter_models_dir": "./components/filter_models"
+  },
+  "networks": {
+    "nodes": [
+      {
+        "nodes_file": "./network/lgn_nodes.h5",
+        "node_types_file": "./network/lgn_node_types.csv"
+      }
+    ]
+  },
+  "config_path": "/home/kael/Workspace/bmtk_workshop_2022/Ch6_l4model/config.simulation_filternet.90deg_4Hz.json",
+  "config_dir": "/home/kael/Workspace/bmtk_workshop_2022/Ch6_l4model"
+}
