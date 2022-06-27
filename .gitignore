@@ -9,3 +9,4 @@ dist/*
 Ch6_l4model/inputs/config.*.json
 Ch6_l4model/inputs/log.txt
 Ch6_l4model/inputs/spikes.*.csv
+Ch6_l4model/inputs/rates.*.h5
