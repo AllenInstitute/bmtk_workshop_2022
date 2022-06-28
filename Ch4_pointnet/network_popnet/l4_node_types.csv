@@ -1,5 +1,5 @@
-node_type_id model_type model_template model_name dynamics_params pop_name ei_type
-100 population dipde:Internal Scnn1a Scnn1a_pop_model.json NULL e
-101 population dipde:Internal Rorb Rorb_pop_model.json NULL e
-102 population dipde:Internal Nr5a1 Nr5a1_pop_model.json NULL e
-103 population dipde:Internal NULL Pvalb_pop_model.json Pvalb i
+node_type_id model_type model_name model_template dynamics_params ei_type pop_name
+100 population Scnn1a dipde:Internal Scnn1a_pop_model.json e NULL
+101 population Rorb dipde:Internal Rorb_pop_model.json e NULL
+102 population Nr5a1 dipde:Internal Nr5a1_pop_model.json e NULL
+103 population NULL dipde:Internal Pvalb_pop_model.json i Pvalb

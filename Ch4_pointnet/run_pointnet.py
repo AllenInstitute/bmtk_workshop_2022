@@ -1,5 +1,6 @@
 import os, sys
 from bmtk.simulator import pointnet
+from bmtk.analyzer.spike_trains import plot_raster
 
 
 def run(config_file):
@@ -12,4 +13,11 @@ def run(config_file):
 
 
 if __name__ == '__main__':
-    run('config.simulation.json')
+    if __file__ != sys.argv[-1]:
+        config_path = sys.argv[-1]
+    else:
+        config_path = 'config.simulation.json'
+
+    print(config_path)
+    run(config_path)
+    plot_raster(config_file=config_path, group_by='model_name', show=True)
