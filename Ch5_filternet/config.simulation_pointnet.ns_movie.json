@@ -16,7 +16,7 @@
     "lgn_spikes": {
       "input_type": "spikes",
       "module": "sonata",
-      "input_file": "./inputs/spikes.natural_scenes.h5",
+      "input_file": "$INPUT_DIR/spikes.ns_movie.h5",
       "node_set": "lgn"
     }
   },
@@ -31,9 +31,9 @@
   },
 
   "output": {
-    "output_dir": "output",
-    "spikes_file": "spikes.h5",
+    "output_dir": "$OUTPUT_DIR",
     "log_file": "log.txt",
+    "spikes_file": "spikes.h5",
     "overwrite_output_dir": true,
     "quiet_simulator": true
   },
