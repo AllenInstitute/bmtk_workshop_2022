@@ -27,24 +27,28 @@
   },
 
   "conditions": {
-    "jitter_lower": 0.75,
-    "jitter_upper": 1.25
+    "jitter_lowers": 0.75,
+    "jitter_uppers": 1.25
   },
 
   "inputs": {
-    "movie_input": {
+    "full_field_flash": {
       "input_type": "movie",
-      "module": "movie",
-      "data_file": "./movies/ns_movie.8images.npy",
+      "module": "full_field_flash",
+      "row_size": 240,
+      "col_size": 120,
+      "t_on": 1000.0,
+      "t_off": 2000.0,
+      "max_intensity": 10.0,
       "frame_rate": 1000.0
     }
   },
 
-  "output":{ 
+  "output":{
     "log_file": "log.txt",
     "output_dir": "./inputs",
-    "rates_csv": "rates.csv",
-    "spikes_file_csv": "spikes.natural_scenes.csv",
-    "spikes_file": "spikes.natural_scenes.h5"
+    "rates_h5": "rates.flash.h5",
+    "spikes_file_csv": "spikes.flash.csv",
+    "spikes_file": "spikes.flash.h5"
   }
 }

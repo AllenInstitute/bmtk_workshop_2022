@@ -10,3 +10,9 @@ Ch6_l4model/inputs/config.*.json
 Ch6_l4model/inputs/log.txt
 Ch6_l4model/inputs/spikes.*.csv
 Ch6_l4model/inputs/rates.*.h5
+images_raw/
+Ch5_filternet/components_orig
+Ch5_filternet/inputs/log.txt
+Ch5_filternet/inputs/rates.*.h5
+Ch5_filternet/inputs/spikes.*.csv
+Ch5_filternet/inputs/config*json
