@@ -1,0 +1,48 @@
+{
+  "manifest": {
+    "$BASE_DIR": "${configdir}",
+    "$OUTPUT_DIR": "$BASE_DIR/output"
+  },
+    
+  "target_simulator": "NEURON",
+    
+  "run": {
+    "tstop": 3000.0,
+    "dt": 0.1,
+    "dL": 20.0,
+    "spike_threshold": -15.0,
+    "nsteps_block": 5000
+  },
+    
+  "conditions": {
+    "celsius": 34.0,
+    "v_init": -80.0
+  },
+    
+  "output": {
+    "log_file": "log.txt",
+    "output_dir": "./output",
+    "spikes_file": "spikes_with_lifs.h5"
+  },
+    
+  "reports": {
+    "membrane_potential": {
+      "module": "membrane_report",
+      "variable_name": "v",
+      "cells": "all",
+      "sections": "soma",
+      "file_name": "membrane_potential.h5"
+    }
+  },
+    
+  "inputs": {
+    "lgn_spikes": {
+      "input_type": "spikes",
+      "module": "sonata",
+      "input_file": "./inputs/lgn_spikes.h5",
+      "node_set": "lgn"
+    }
+  },
+  
+  "network": "config.circuit_with_lifs.json"
+}

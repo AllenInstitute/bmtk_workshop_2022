@@ -1,0 +1,3 @@
+node_type_id ei_type model_name dynamics_params model_type model_template
+100 e LIF_exc IntFire1_exc_1.json point_neuron nrn:IntFire1
+101 i LIF_inh IntFire1_inh_1.json point_neuron nrn:IntFire1
