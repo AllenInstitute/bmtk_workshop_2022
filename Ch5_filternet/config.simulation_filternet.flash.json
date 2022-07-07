@@ -39,7 +39,7 @@
       "col_size": 120,
       "t_on": 1000.0,
       "t_off": 2000.0,
-      "max_intensity": 10.0,
+      "max_intensity": 3.0,
       "frame_rate": 1000.0
     }
   },
