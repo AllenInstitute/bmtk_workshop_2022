@@ -1,2 +1,2 @@
-node_type_id model_type ei model_template pop_name
-100 virtual e dipde:External tON
+node_type_id pop_name model_type ei model_template
+100 tON virtual e dipde:External
