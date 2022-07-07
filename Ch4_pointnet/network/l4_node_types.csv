@@ -1,5 +1,5 @@
-node_type_id model_type model_name model_template dynamics_params ei_type
-100 point_neuron Scnn1a nest:glif_lif_asc_psc Scnn1a_515806250_glif_lif_asc.json e
-101 point_neuron Rorb nest:glif_lif_asc_psc Rorb_512332555_glif_lif_asc.json e
-102 point_neuron Nr5a1 nest:glif_lif_asc_psc Nr5a1_587862586_glif_lif_asc.json e
-103 point_neuron PValb nest:glif_lif_asc_psc Pvalb_574058595_glif_lif_asc.json i
+node_type_id model_name model_type ei_type model_template dynamics_params
+100 Scnn1a point_neuron e nest:glif_lif_asc_psc Scnn1a_515806250_glif_lif_asc.json
+101 Rorb point_neuron e nest:glif_lif_asc_psc Rorb_512332555_glif_lif_asc.json
+102 Nr5a1 point_neuron e nest:glif_lif_asc_psc Nr5a1_587862586_glif_lif_asc.json
+103 PValb point_neuron i nest:glif_lif_asc_psc Pvalb_574058595_glif_lif_asc.json
