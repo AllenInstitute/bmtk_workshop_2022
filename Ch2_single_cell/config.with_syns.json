@@ -33,6 +33,7 @@
     }
   },
   "components": {
+    "filter_models_dir": "$COMPONENTS_DIR/filter_models",
     "templates_dir": "$COMPONENTS_DIR/templates",
     "biophysical_neuron_models_dir": "$COMPONENTS_DIR/biophysical_neuron_models",
     "mechanisms_dir": "$COMPONENTS_DIR/mechanisms",

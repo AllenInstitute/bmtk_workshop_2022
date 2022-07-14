@@ -11,4 +11,4 @@ def main(config_file):
 
 
 if __name__ == '__main__':
-    main('/home/kael/Workspace/bmtk_workshop_2022/Ch4_pointnet/config.pointnet.json')
+    main('config.json')

@@ -16,4 +16,4 @@ if __name__ == '__main__':
     if __file__ != sys.argv[-1]:
         main(sys.argv[-1])
     else:
-        main('/home/kael/Workspace/bmtk_workshop_2022/Ch4_pointnet/config.popnet.json')
+        main('config.json')
