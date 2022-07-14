@@ -1,5 +1,5 @@
-node_type_id model_type ei_type dynamics_params model_name model_processing model_template rotation_angle_zaxis rotation_angle_xaxis morphology
-100 biophysical e Scnn1a_485510712_params.json Scnn1a aibs_perisomatic ctdb:Biophys1.hoc 3.646878266 0 Scnn1a_485510712_morphology.swc
-101 biophysical e Rorb_486509958_params.json Rorb aibs_perisomatic ctdb:Biophys1.hoc 4.159763785 0 Rorb_486509958_morphology.swc
-102 biophysical e Nr5a1_485507735_params.json Nr5a1 aibs_perisomatic ctdb:Biophys1.hoc 4.159763785 0 Nr5a1_485507735_morphology.swc
-103 biophysical i Pvalb_473862421_params.json PValb aibs_perisomatic ctdb:Biophys1.hoc 2.539551891 0 Pvalb_473862421_morphology.swc
+node_type_id ei_type morphology model_processing model_type dynamics_params model_template rotation_angle_xaxis model_name rotation_angle_zaxis
+100 e Scnn1a_485510712_morphology.swc aibs_perisomatic biophysical Scnn1a_485510712_params.json ctdb:Biophys1.hoc 0 Scnn1a 3.646878266
+101 e Rorb_486509958_morphology.swc aibs_perisomatic biophysical Rorb_486509958_params.json ctdb:Biophys1.hoc 0 Rorb 4.159763785
+102 e Nr5a1_485507735_morphology.swc aibs_perisomatic biophysical Nr5a1_485507735_params.json ctdb:Biophys1.hoc 0 Nr5a1 4.159763785
+103 i Pvalb_473862421_morphology.swc aibs_perisomatic biophysical Pvalb_473862421_params.json ctdb:Biophys1.hoc 0 PValb 2.539551891

@@ -1,7 +1,7 @@
 {
   "manifest": {
     "$BASE_DIR": ".",
-    "$OUTPUT_DIR": "$BASE_DIR/stimulus",
+    "$OUTPUT_DIR": "$BASE_DIR/inputs",
     "$NETWORK_DIR": "$BASE_DIR/network",
     "$COMPONENT_DIR": "$BASE_DIR/components"
   },
@@ -27,28 +27,24 @@
   },
 
   "conditions": {
-    "jitter_lowers": 0.75,
-    "jitter_uppers": 1.25
+    "jitter_lower": 0.75,
+    "jitter_upper": 1.25
   },
 
   "inputs": {
     "full_field_flash": {
       "input_type": "movie",
-      "module": "full_field_flash",
-      "row_size": 240,
-      "col_size": 120,
-      "t_on": 1000.0,
-      "t_off": 2000.0,
-      "max_intensity": 1.0,
+      "module": "movie",
+      "data_file": "./movies/ns_movie.8images.npy",
       "frame_rate": 1000.0
     }
   },
 
   "output":{
     "log_file": "log.txt",
-    "output_dir": "./inputs",
-    "rates_h5": "rates.flash.h5",
-    "spikes_file_csv": "spikes.flash.csv",
-    "spikes_file": "spikes.flash.h5"
+    "output_dir": "$OUTPUT_DIR",
+    "rates_h5": "rates.ns_movie.h5",
+    "spikes_file_csv": "spikes.ns_movie.csv",
+    "spikes_file": "spikes.ns_movie.h5"
   }
 }
