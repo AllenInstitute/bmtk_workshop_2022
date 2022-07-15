@@ -1,6 +1,6 @@
 {
   "manifest": {
-    "$BASE_DIR": "/home/kael/Workspace/bmtk_workshop_2022/Ch4_pointnet",
+    "$BASE_DIR": ".",
     "$OUTPUT_DIR": "$BASE_DIR/output_pointnet",
     "$NETWORK_DIR": "$BASE_DIR/network",
     "$COMPONENTS_DIR": "$BASE_DIR/components"
