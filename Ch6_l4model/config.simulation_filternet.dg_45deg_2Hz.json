@@ -28,7 +28,7 @@
       "cpd": 0.04,
       "temporal_f": 2.0,
       "contrast": 0.8,
-      "theta": 90.0,
+      "theta": 45.0,
       "evaluation_options": {
         "downsample": 1,
         "separable": true
