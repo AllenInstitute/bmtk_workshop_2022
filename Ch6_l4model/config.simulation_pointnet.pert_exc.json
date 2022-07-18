@@ -16,7 +16,7 @@
     "lgn_spikes": {
       "input_type": "spikes",
       "module": "sonata",
-      "input_file": "./inputs/spikes.gratings.90deg_4Hz.h5",
+      "input_file": "./inputs/spikes.gratings.90deg_2Hz.h5",
       "node_set": "lgn"
     },
     "bkg_spikes": {
